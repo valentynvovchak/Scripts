@@ -5,5 +5,5 @@ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 source ~/.bashrc
 nvm install node
 
-# Register Validator and Stake
-sudo npm i -g @bundlr-network/testnet-cli@latest
+# Check ballance
+npx @bundlr-network/testnet-cli@latest balance $BUNDLR_ADDRESS
