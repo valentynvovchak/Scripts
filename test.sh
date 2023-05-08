@@ -10,7 +10,7 @@ nvm install node
 
 BUNDLER_PORT=42069
 BUNDLER_URL=https://testnet1.bundlr.network
-echo 'export GW_CONTRACT="RkinCLBlY4L5GZFv8gCFcrygTyd5Xm91CzKlR6qxhKA"'
+echo 'export GW_CONTRACT="RkinCLBlY4L5GZFv8gCFcrygTyd5Xm91CzKlR6qxhKA"' >> ~/.bash_profile
 GW_ARWEAVE=https://arweave.testnet1.bundlr.network
 GW_STATE_ENDPOINT=https://faucet.testnet1.bundlr.network
 source ~/.bash_profile
